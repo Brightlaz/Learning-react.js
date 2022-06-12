@@ -39,9 +39,9 @@ a:hover {
 .App {
     width: 380px;
     margin: 40px auto 40px auto;
-    border-radius: 0px;
     background: white;
     border-radius: 10px;
+    overflow: hidden;
     padding: 0;
 }
 
