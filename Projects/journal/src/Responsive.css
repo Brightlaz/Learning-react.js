@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+    .img {
+        margin-right: 0px;
+        flex: 0 0 100%;
+    }
+}
