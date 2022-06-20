@@ -1,27 +1,31 @@
-import './App.css';
-import './Responsive.css'
 import React from 'react';
-import Navbar from './components/Navbar';
-import Body from './components/Body'
-import data from './data'
 
-function App() {
-    const jobs = data.map(item => {
-        return ( <
-            Body key = { item.id }
-            item = { item }
-            />
-        )
-    })
+export default function Navbar() {
     return ( <
-        main >
+        nav >
         <
-        Navbar / >
+        img src = ".././images/journal.png"
+        alt = "journal" / >
         <
-        section > { jobs } <
-        /section> < /
-        main >
+        h3 > My Work Journal < /h3> < /
+        nav >
     )
+}
+return ( <
+Body key = { item.id }
+item = { item }
+/>
+)
+})
+return ( <
+    main >
+    <
+    Navbar / >
+    <
+    section > { jobs } <
+    /section> <
+    /main>
+)
 }
 
 export default App
