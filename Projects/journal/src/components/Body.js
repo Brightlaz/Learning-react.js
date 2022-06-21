@@ -21,8 +21,8 @@ function Body(props) {
         p > { props.item.description } < /p> <
         p > < img src = ".././images/location.png"
         alt = "location"
-        id = "icon" / > < span > { props.item.location } < /span><a href = {props.item.googleMapsUrl} target = "_blank">{props.item.view}</a > < /p> < /
-        div > <
+        id = "icon" / > < span > { props.item.location } < /span><a href = {props.item.googleMapsUrl} target = "_blank">{props.item.view}</a > < /p> <
+        /div> <
         /div> <
         hr / >
         <
