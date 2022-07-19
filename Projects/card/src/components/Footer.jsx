@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import Instagram from "../Instagram.png"
 import Twitter from "../Twitter.png"
 import Github from "../Github.png"

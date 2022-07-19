@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import image from "../image.png"
 export default function Picture() {
     return ( 
